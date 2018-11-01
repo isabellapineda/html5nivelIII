@@ -1,0 +1,42 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.boton{
+	padding: $espacios - 5px;
+	border-radius: 30px;
+	border: 2px solid $color-input;
+
+}
+.formulario{
+
+	&-registro{
+		width: 40%;
+		background: complement($color-formulario);  //lighten para aclarar para oscurecer
+		margin: auto;
+		padding: $espacios + 5px;
+		position: relative;
+		top: 100px;
+	}
+	&-input{
+		margin: $espacios 0;
+		width: 90%;
+		@include estilos-boton(20px, 1px, $color-input );
+		&-contenedor{
+			label{
+				display: block;
+				color: white;
+				font:{
+					size: 20px;
+				}
+			}
+		}
+	}
+	&-button{
+		@include estilos-boton(10px, 8px, green);
+	}
+
+}

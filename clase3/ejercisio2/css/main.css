@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.boton {
+  padding: 5px;
+  border-radius: 30px;
+  border: 2px solid green;
+}
+
+.formulario-registro {
+  width: 40%;
+  background: yellow;
+  margin: auto;
+  padding: 15px;
+  position: relative;
+  top: 100px;
+}
+
+.formulario-input {
+  margin: 10px 0;
+  width: 90%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+
+.formulario-input-contenedor label {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.formulario-button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 8px solid green;
+}
